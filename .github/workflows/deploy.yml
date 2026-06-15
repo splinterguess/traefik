@@ -5,7 +5,7 @@ jobs:
   deploy:
     runs-on: self-hosted
     steps:
-      - name: Mise à jour et lancement
+      - name: Git Pull et Redémarrage
         run: |
           cd ~/traefik
           git pull origin main
